@@ -1,26 +1,29 @@
-# Clint Balbontin — Digital Marketing Specialist (Philippines)
+# Clint Balbontin: Digital Marketing Specialist (Philippines)
 
-> Digital marketing specialist based in the Philippines, working remotely with international clients since 2015. 300+ completed projects across 8+ industries in government, corporate, and non-profit sectors.
+> Digital marketing specialist based in the Philippines (GMT+8), working remotely with clients in Australia, the UK, Europe, and the US since 2015. Social media and content, email and CRM automation (Klaviyo, GoHighLevel, MailChimp), websites, funnels, SEO, and brand design. 11+ years, 300+ completed projects, creative lead on 200+ custom real estate websites.
 
 Website: https://clintbalbontin.com/
 Email: clint@clintbalbontin.com
 LinkedIn: https://www.linkedin.com/in/clinton-balbontin/
-Location: Philippines (GMT+8), serving Australia, the UK, Europe, the Middle East, and Southeast Asia
+Behance: https://www.behance.net/clinton-jboy
 
 ## Services
-- Social media strategy, content design, copywriting, and management
-- Email marketing and CRM automation: GoHighLevel, Klaviyo, MailChimp; lifecycle flows (welcome, cart abandonment, win-back)
-- Website design, landing pages, and sales funnels, built to convert and structured to rank
-- SEO and analytics: GA4 and Google Tag Manager set up from day one
-- Brand and creative: logo and brand identity, slide decks, print design, photography, video editing
+- [Social Media & Content](https://clintbalbontin.com/services/social-media-content): strategy, content design, captions, short video, scheduling for Instagram, Facebook, LinkedIn
+- [Email & CRM Automation](https://clintbalbontin.com/services/email-crm-automation): Klaviyo flows and campaigns, GoHighLevel funnels, pipelines, calendars, workflows, MailChimp
+- [Websites, Funnels & SEO](https://clintbalbontin.com/services/websites-funnels-seo): website design, WordPress and GoHighLevel builds, technical SEO, schema, GA4 and Google Tag Manager
+- [Creative & Brand](https://clintbalbontin.com/services/creative-brand): logo and brand identity, annual reports, slide decks, print, event and aerial photography
 
-## Experience
-- 11+ years in digital marketing (since 2015)
-- 300+ completed projects
-- Industries: real estate, government, non-profit, corporate, education, tourism, MICE and events, property management
-- Selected work: Makati Business Club annual reports, Philippine tourism campaigns, US luxury real estate websites and brand identities, wellness and e-commerce email programs
+## Case studies
+- [Meta was missing half the revenue](https://clintbalbontin.com/work/funnel-revenue-tracking): Meta reported $1,215 in purchase value (May to July 2026); the GoHighLevel funnel recorded $2,476. July cost per purchase fell 59% from June. Account did not reach profit (true ROAS 0.64).
+- [Klaviyo email for a DTC appliance brand](https://clintbalbontin.com/work/klaviyo-email-dtc-brand): Fritaire, April 2025 to July 2026. Five-email welcome series, seven recovery emails across browse, cart, and checkout flows.
+- [Luxury real estate websites](https://clintbalbontin.com/work/luxury-real-estate-websites): creative lead on 200+ custom websites for North American agents and brokerages, 2021 to 2025.
+- [Makati Business Club](https://clintbalbontin.com/work/makati-business-club): 2018 and 2019 annual reports, 2020 Annual Membership Meeting deck, Business Matters social series, event photography.
+- [Philippine Department of Tourism](https://clintbalbontin.com/work/philippine-tourism-campaign): 2015 results campaign graphics under "It's More Fun in the Philippines".
+
+## About
+- [About Clint](https://clintbalbontin.com/about): BA Sociology and Anthropology, Ateneo de Manila University (Ricardo Abad Social Sciences Award). Roles at the Department of Tourism, Ateneo, the Asian Institute of Management, the Makati Business Club, a US real estate web studio, Fritaire, and Channel Hunters.
 
 ## How he works
-- One specialist end to end: strategy, creative, build, launch, reporting
-- Remote-first, replies within 24 hours
-- Mornings overlap with Australian business hours, afternoons with the UK and Europe
+- One specialist from plan to launch: strategy, creative, build, reporting
+- Remote from the Philippines; mornings overlap Australia, afternoons overlap the UK and Europe
+- Replies within 24 hours
