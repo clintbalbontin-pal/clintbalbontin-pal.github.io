@@ -17,7 +17,7 @@
   --gray-600: #6B5E5A;
   --gray-800: #2A2220;
   --gold: #C41E3A;          /* Cardinal (legacy token name) */
-  --gold-lt: #E0566C;       /* Cardinal tint for dark backgrounds, 4.9:1 on black */
+  --gold-lt: #E3405B;       /* Cardinal, lifted for small text on dark: 4.9:1 on #0A0A0A, same hue as Cardinal */
   --oxblood: #6B1520;
   --gold-dim: rgba(196,30,58,0.14);
   --on-dark: rgba(250,247,245,0.78);
@@ -245,9 +245,9 @@ button { font-family: var(--body); cursor: pointer; border: none; background: no
 .case-row { border-bottom: 1px solid var(--gray-200); }
 .case-row a {
   display: grid; grid-template-columns: 64px 1.2fr 1fr 220px; gap: 32px; align-items: center;
-  padding: 28px 0; transition: background 0.25s, padding 0.25s;
+  padding: 28px 0; transition: background-color 0.25s ease;
 }
-.case-row a:hover { background: var(--gray-50); padding-left: 16px; padding-right: 16px; }
+.case-row a:hover { background: var(--gray-50); }
 .case-n { font-family: var(--heading); font-size: 18px; color: var(--gold); }
 .case-t { font-family: var(--heading); font-size: clamp(24px, 2.4vw, 32px); font-weight: 400; line-height: 1.15; }
 .case-k { display: block; font-family: var(--body); font-size: 12px; letter-spacing: 0.16em; text-transform: uppercase; color: var(--gray-600); margin-bottom: 8px; }
@@ -266,7 +266,7 @@ button { font-family: var(--body); cursor: pointer; border: none; background: no
 .filt {
   font-size: 12px; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase;
   min-height: 44px; padding: 10px 20px; border: 1px solid var(--gray-200); border-radius: 2px;
-  color: var(--gray-600); background: transparent; transition: all 0.2s;
+  color: var(--gray-600); background: transparent; transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease;
 }
 .filt[aria-pressed="true"], .filt:hover { background: var(--black); border-color: var(--black); color: var(--white); }
 .work-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2px; background: var(--gray-200); }
@@ -567,8 +567,8 @@ footer { background: var(--black); padding: 64px var(--pad-x) 40px; color: var(-
 
 /* Service index blocks */
 .svc-index { list-style: none; border-top: 1px solid var(--gray-200); }
-.svc-index li a { display: grid; grid-template-columns: 80px minmax(0, 1fr) minmax(0, 1.2fr) 40px; gap: 32px; align-items: center; padding: 40px 0; border-bottom: 1px solid var(--gray-200); transition: padding 0.25s, background 0.25s; }
-.svc-index li a:hover { background: var(--gray-50); padding-left: 16px; padding-right: 16px; }
+.svc-index li a { display: grid; grid-template-columns: 80px minmax(0, 1fr) minmax(0, 1.2fr) 40px; gap: 32px; align-items: center; padding: 40px 0; border-bottom: 1px solid var(--gray-200); transition: background-color 0.25s ease; }
+.svc-index li a:hover { background: var(--gray-50); }
 .svc-index .si-n { font-family: var(--heading); font-size: 44px; font-weight: 300; color: var(--gray-400); }
 .svc-index h2 { font-family: var(--heading); font-size: clamp(30px, 3vw, 42px); font-weight: 400; line-height: 1.1; }
 .svc-index p { font-size: 16px; line-height: 1.7; color: var(--gray-600); }
@@ -692,3 +692,23 @@ footer { background: var(--black); padding: 64px var(--pad-x) 40px; color: var(-
 @media (max-width: 860px) {
   .strip.five, .strip.four, .strip.three { grid-template-columns: repeat(2, 1fr); }
 }
+
+/* ---------- v6.1: brand red + motion fixes ---------- */
+/* Large display italics on dark use true Cardinal (3.4:1, passes AA for large text) */
+.hero-h1 em, .page-h1 em, .dark .h2 em, .cta-band h2 em, .case-img.typo em, .dark .kpi-num small, .stat-num span { color: var(--gold); }
+/* Hover shifts use transform, not padding; gated to real pointers */
+.case-n, .case-t, .svc-index .si-n, .svc-index .si-t { transition: transform 0.25s var(--ease-out); }
+@media (hover: hover) and (pointer: fine) {
+  .case-row a:hover .case-n, .case-row a:hover .case-t { transform: translateX(8px); }
+}
+@media (hover: none), (pointer: coarse) {
+  .case-row a:hover .case-img img, .work-cell:hover .work-bg, .svc-index li a:hover .si-arrow { transform: none; }
+}
+/* Reduced motion: keep fades, drop movement */
+@media (prefers-reduced-motion: reduce) {
+  .reveal { transition: opacity 0.2s ease !important; }
+  .case-row a:hover .case-n, .case-row a:hover .case-t { transform: none; }
+}
+
+/* Review source links: 24px minimum tap target (WCAG 2.5.8) */
+.t-source { display: inline-flex; align-items: center; min-height: 24px; }
