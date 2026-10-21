@@ -97,7 +97,7 @@
           btn.innerHTML = original;
           btn.disabled = false;
           status.className = 'f-status err';
-          status.innerHTML = 'The message did not send. Please email me at <a href="mailto:clint@clintbalbontin.com">clint@clintbalbontin.com</a>.';
+          status.innerHTML = 'The message did not send. Please try again, or message me on LinkedIn.';
         });
     });
   }
