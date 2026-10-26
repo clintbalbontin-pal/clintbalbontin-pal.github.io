@@ -13,6 +13,7 @@ Behance: https://www.behance.net/clinton-jboy
 - [Creative & Brand](https://clintbalbontin.com/services/creative-brand): logo and brand identity, annual reports, slide decks, print, event and aerial photography
 
 ## Case studies
+- [SEO and AI search for an Amazon agency](https://clintbalbontin.com/work/amazon-agency-seo-ai-search): Los Angeles Amazon growth agency, July to October 2026. Search baseline across SE Ranking, Search Console, GA4 and Semrush in two days; 119 buyer keywords mapped, 174 in weekly tracking; blog indexing fixes on Astro and Sanity; AI search crawlers confirmed open; first GoHighLevel lead magnet funnel and delivery workflow.
 - [Meta was missing half the revenue](https://clintbalbontin.com/work/funnel-revenue-tracking): Meta reported $1,215 in purchase value (May to July 2026); the GoHighLevel funnel recorded $2,476. July cost per purchase fell 59% from June. Account did not reach profit (true ROAS 0.64).
 - [Klaviyo email for a DTC appliance brand](https://clintbalbontin.com/work/klaviyo-email-dtc-brand): Fritaire, April 2025 to July 2026. Five-email welcome series, seven recovery emails across browse, cart, and checkout flows.
 - [Luxury real estate websites](https://clintbalbontin.com/work/luxury-real-estate-websites): creative lead on 200+ custom websites for North American agents and brokerages, 2021 to 2025.
