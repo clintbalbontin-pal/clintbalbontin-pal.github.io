@@ -52,7 +52,7 @@
     if (!a) return;
     var href = a.getAttribute('href') || '';
     if (href.indexOf('mailto:') === 0) track('contact_email_click', { link_url: href });
-    else if (href.indexOf('tel:') === 0) track('contact_phone_click', { link_url: href });
+    else if (href.indexOf('tel:') === 0 || /^https:\/\/wa\.me\//i.test(href)) track('contact_phone_click', { link_url: href });
     else if (/linkedin\.com/i.test(href)) track('social_click', { platform: 'linkedin', link_url: href });
     else if (/behance\.net/i.test(href)) track('social_click', { platform: 'behance', link_url: href });
     if (a.hasAttribute('data-cta')) track('cta_click', { cta: a.getAttribute('data-cta'), page: location.pathname });
