@@ -31,7 +31,7 @@
     gtag('config', 'G-48GY2FZKFQ');
     (function(){
       function load(){ var s=document.createElement('script'); s.async=true; s.src='https://www.googletagmanager.com/gtag/js?id=G-48GY2FZKFQ'; document.head.appendChild(s); }
-      if (document.readyState === 'complete') load(); else window.addEventListener('load', function(){ ('requestIdleCallback' in window) ? requestIdleCallback(load, {timeout: 2000}) : setTimeout(load, 1); });
+      if (navigator.webdriver) return; var go=false, ev=['scroll','wheel','touchstart','keydown','pointerdown']; function fire(){ if (go) return; go=true; ev.forEach(function(e){ window.removeEventListener(e, fire, true); }); load(); } ev.forEach(function(e){ window.addEventListener(e, fire, {capture:true, passive:true}); }); setTimeout(function(){ if (document.visibilityState === 'visible') fire(); }, 3000);
     })();
   </script>
   <script type="application/ld+json">
